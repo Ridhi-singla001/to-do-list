@@ -1,0 +1,98 @@
+body {
+    background-color: peachpuff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.heading {
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+}
+
+.toAdd {
+    text-align: center;
+    position: relative;
+}
+
+#text {
+    height: 50px;
+    border: none;
+    background-color: white;
+    width: 290px;
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+input[type="text"]:focus {
+    outline-color: blue;
+}
+
+#add {
+    height: 50px;
+    width: 70px;
+    color: gray;
+    border: 1px solid black;
+}
+
+.newItem {
+    background-color: cyan;
+    border-radius: 10px;
+    height: 45px;
+    width: 380px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.button1{
+    background-color: #EB506C;
+    margin: 0 3px 0 4px;
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+    width: 27px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2{
+    background-color: #42B4E6;
+    margin: 0 3px 0 4px;
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+    width: 27px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button3{
+    background-color: #F39A38;
+    margin: 0 3px 0 4px;
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+    width: 27px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input1{
+    font-size: 18px;
+    margin-left: 10px;
+}
